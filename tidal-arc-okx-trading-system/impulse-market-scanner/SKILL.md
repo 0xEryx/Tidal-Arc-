@@ -1,6 +1,6 @@
 ---
 name: impulse-market-scanner
-description: Use this custom OpenClaw skill when a trader wants to scan OKX perpetual contracts for healthy liquidity, elevated volatility, strong participation, and short-term tradability before handing symbols to long-impulse-manager or short-impulse-manager. This skill is for building a shortlist of intraday-ready swaps using OKX market MCP data such as tickers, instruments, order books, candles, open interest, funding, recent trades, and technical indicators. Trigger for requests like '帮我筛适合短线的合约', '找流动性健康且波动大的永续', '做一个给 impulse manager 配套的选币 skill', '先筛标的再决定做多做空', or any request to rank OKX swaps by liquidity health, volatility, and execution quality.
+description: Use this custom OpenClaw skill when a trader wants to scan OKX perpetual contracts for healthy liquidity, elevated volatility, strong participation, and short-term tradability before handing symbols to long-impulse-manager or short-impulse-manager. This skill is for building a shortlist of intraday-ready swaps using OKX market MCP data such as tickers, instruments, order books, candles, open interest, funding, recent trades, and technical indicators. Trigger for requests like '帮我筛适合短线的合约', '找流动性健康且波动大的永续',  '先筛标的再决定做多做空', or any request to rank OKX swaps by liquidity health, volatility, and execution quality.
 version: "0.1.0"
 user-invocable: true
 metadata:
@@ -35,7 +35,6 @@ This skill is not a direct execution skill and not a directional entry engine. I
 - the user says things like:
   - "帮我筛适合短线的合约"
   - "找几个流动性健康、波动大的永续"
-  - "做一个给 impulse manager 配套的选标的 skill"
   - "先筛标的，再决定用 long 还是 short impulse manager"
 
 ## Do Not Use This Skill When
