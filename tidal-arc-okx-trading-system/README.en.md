@@ -2,8 +2,6 @@
 
 `Tidal Arc` is a four-skill OKX perpetual trading framework designed for agent-driven market selection, directional impulse decision-making, and higher-timeframe trend maintenance.
 
-The system is designed for OpenClaw, but the underlying logic is strategy-first rather than tool-first. In other words, the point of the pack is not just that it contains four prompts. The point is that each skill has a clear role, a clear data surface, a clear decision boundary, and a clear handoff to the next layer.
-
 ## What Tidal Arc Is Trying To Solve
 
 Most "AI trading skills" fail in one of two ways:
